@@ -1,4 +1,4 @@
-FROM openjdk-11:latest
+FROM redhat.io/ubi8/openjdk-11:latest
 
 RUN microdnf reinstall -y tzdata
 
